@@ -1,0 +1,54 @@
+Users:
+  type: entity
+  table: users
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    firstName:
+      type: string
+      length: 30
+      fixed: false
+      nullable: true
+      column: first_name
+    lastName:
+      type: string
+      length: 70
+      fixed: false
+      nullable: true
+      column: last_name
+    sex:
+      type: string
+      length: 10
+      fixed: false
+      nullable: true
+    city:
+      type: text
+      nullable: true
+    address:
+      type: text
+      nullable: true
+    login:
+      type: string
+      length: 40
+      fixed: false
+      nullable: false
+    pass:
+      type: string
+      length: 255
+      fixed: false
+      nullable: false
+    email:
+      type: string
+      length: 255
+      fixed: false
+      nullable: true
+    createdAt:
+      type: datetime
+      nullable: false
+      column: created_at
+  lifecycleCallbacks: {  }

@@ -1,0 +1,90 @@
+[2011-05-07 23:47:45] request.ERROR: No route found for "GET /" 
+[2011-05-07 23:47:45] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) 
+[2011-05-07 23:47:45] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-07 23:47:49] request.ERROR: No route found for "GET /" 
+[2011-05-07 23:47:49] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /" (uncaught exception) 
+[2011-05-07 23:47:49] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:01:40] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:01:40] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:01:40] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:04:05] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:04:05] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:04:05] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:10:22] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:10:22] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:10:22] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:12:55] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:12:55] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:12:55] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:13:30] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:13:30] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:13:30] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:14:32] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:14:32] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:14:32] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:16:16] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:16:16] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:16:16] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 00:16:47] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 00:16:47] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 00:16:47] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:14:50] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:14:50] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:14:50] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:16:11] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:16:11] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:16:11] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:17:13] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:17:13] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:17:13] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:37:53] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:37:53] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:37:53] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:38:02] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:38:02] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:38:02] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:43:10] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:43:10] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:43:10] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:53:34] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:53:34] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:53:34] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 12:54:03] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 12:54:03] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 12:54:03] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 13:28:46] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 13:28:46] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 13:28:46] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 13:29:52] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 13:29:52] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 13:29:52] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 13:36:07] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 13:36:07] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 13:36:07] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:28:03] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:28:03] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:28:03] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:29:36] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:29:36] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:29:36] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:41:03] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:41:03] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:41:03] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:41:44] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:41:44] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:41:44] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:42:55] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:42:55] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:42:55] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:43:22] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:43:22] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:43:22] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:44:41] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:44:41] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:44:41] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-08 14:46:47] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-08 14:46:47] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-08 14:46:47] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 
+[2011-05-09 13:25:39] request.ERROR: No route found for "GET /bundles/alfshop/css/main.css" 
+[2011-05-09 13:25:39] request.ERROR: Symfony\Component\HttpKernel\Exception\NotFoundHttpException: No route found for "GET /bundles/alfshop/css/main.css" (uncaught exception) 
+[2011-05-09 13:25:39] request.INFO: Using controller "Symfony\Bundle\FrameworkBundle\Controller\ExceptionController::showAction" 

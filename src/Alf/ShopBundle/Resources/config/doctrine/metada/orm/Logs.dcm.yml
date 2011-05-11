@@ -1,0 +1,32 @@
+Logs:
+  type: entity
+  table: logs
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    userId:
+      type: integer
+      unsigned: false
+      nullable: true
+      column: user_id
+    type:
+      type: string
+      length: 50
+      fixed: false
+      nullable: false
+    message:
+      type: text
+      nullable: false
+    details:
+      type: text
+      nullable: false
+    createdAt:
+      type: datetime
+      nullable: false
+      column: created_at
+  lifecycleCallbacks: {  }

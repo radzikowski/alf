@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<doctrine-mapping xmlns="http://doctrine-project.org/schemas/orm/doctrine-mapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://doctrine-project.org/schemas/orm/doctrine-mapping http://doctrine-project.org/schemas/orm/doctrine-mapping.xsd">
+  <entity name="Products" table="products">
+    <change-tracking-policy>DEFERRED_IMPLICIT</change-tracking-policy>
+    <id name="id" type="integer" column="id">
+      <generator strategy="IDENTITY"/>
+    </id>
+    <field name="name" type="string" column="name" length="40"/>
+    <field name="size" type="string" column="size" length="6"/>
+    <field name="cost" type="float" column="cost"/>
+    <field name="amount" type="integer" column="amount"/>
+    <field name="description" type="text" column="description"/>
+    <field name="imageName" type="string" column="image_name" length="255"/>
+    <field name="createdAt" type="datetime" column="created_at"/>
+    <many-to-one field="catalog" target-entity="Catalogs" orphan-removal="">
+      <join-columns>
+        <join-column name="catalog_id" referenced-column-name="id"/>
+      </join-columns>
+    </many-to-one>
+    <many-to-one field="vatType" target-entity="Vats" orphan-removal="">
+      <join-columns>
+        <join-column name="vat_type" referenced-column-name="name"/>
+      </join-columns>
+    </many-to-one>
+    <lifecycle-callbacks/>
+  </entity>
+</doctrine-mapping>

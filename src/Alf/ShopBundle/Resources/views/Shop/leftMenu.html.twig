@@ -1,0 +1,25 @@
+<ul>
+{% for menu in menuList %}
+  <li>{{ menu.name }}</li>
+{% endfor %}
+</ul>
+
+<table>
+
+<tr>
+    <th>{{ paginator|sortable('Id', 'c.id') }}</th>
+    <th>{{ paginator|sortable('Name', 'c.name') }}</th>
+</tr>
+
+{# table body #}
+{% for menu in paginator %}
+<tr {% if loop.index is odd %}class="color"{% endif %}>
+    <td>{{ menu.id }}</td>
+    <td>{{ menu.name }}</td>
+</tr>
+{% endfor %}
+</table>
+
+<div id="navigation">
+{{ paginator|paginate }}
+</div>

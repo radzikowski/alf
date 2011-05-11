@@ -1,0 +1,34 @@
+Catalogs:
+  type: entity
+  table: catalogs
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    name:
+      type: string
+      length: 70
+      fixed: false
+      nullable: false
+    isVisible:
+      type: boolean
+      nullable: false
+      column: is_visible
+    description:
+      type: text
+      nullable: false
+  oneToOne:
+    category:
+      targetEntity: Categories
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        category_id:
+          referencedColumnName: id
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

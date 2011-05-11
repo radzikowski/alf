@@ -1,0 +1,46 @@
+Orders:
+  type: entity
+  table: orders
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    userNip:
+      type: text
+      nullable: true
+      column: user_nip
+    productsList:
+      type: text
+      nullable: false
+      column: products_list
+    deliveryAddress:
+      type: text
+      nullable: false
+      column: delivery_address
+    orderCost:
+      type: float
+      nullable: false
+      column: order_cost
+    deliveryCost:
+      type: float
+      nullable: false
+      column: delivery_cost
+    createdAt:
+      type: datetime
+      nullable: false
+      column: created_at
+  oneToOne:
+    user:
+      targetEntity: Users
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        user_id:
+          referencedColumnName: id
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

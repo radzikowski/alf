@@ -1,0 +1,61 @@
+Products:
+  type: entity
+  table: products
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    name:
+      type: string
+      length: 40
+      fixed: false
+      nullable: false
+    size:
+      type: string
+      length: 6
+      fixed: false
+      nullable: false
+    cost:
+      type: float
+      nullable: false
+    amount:
+      type: integer
+      unsigned: false
+      nullable: false
+    description:
+      type: text
+      nullable: true
+    imageName:
+      type: string
+      length: 255
+      fixed: false
+      nullable: false
+      column: image_name
+    createdAt:
+      type: datetime
+      nullable: false
+      column: created_at
+  oneToOne:
+    catalog:
+      targetEntity: Catalogs
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        catalog_id:
+          referencedColumnName: id
+      orphanRemoval: false
+    vatType:
+      targetEntity: Vats
+      cascade: {  }
+      mappedBy: null
+      inversedBy: null
+      joinColumns:
+        vat_type:
+          referencedColumnName: name
+      orphanRemoval: false
+  lifecycleCallbacks: {  }

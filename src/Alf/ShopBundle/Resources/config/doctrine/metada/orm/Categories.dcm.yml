@@ -1,0 +1,19 @@
+Categories:
+  type: entity
+  table: categories
+  fields:
+    id:
+      id: true
+      type: integer
+      unsigned: false
+      nullable: false
+      generator:
+        strategy: IDENTITY
+    name:
+      type: text
+      nullable: false
+    isVisible:
+      type: boolean
+      nullable: false
+      column: is_visible
+  lifecycleCallbacks: {  }

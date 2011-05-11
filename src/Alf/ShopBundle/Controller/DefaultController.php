@@ -1,0 +1,13 @@
+<?php
+
+namespace Alf\ShopBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+
+class DefaultController extends Controller
+{
+    public function indexAction()
+    {
+        return $this->render('AlfShopBundle:Default:index.html.twig');
+    }
+}
